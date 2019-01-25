@@ -9,7 +9,7 @@ def second_challenge
   array = []
   #code your solution here!
   for each groceries.values do |item|
-    
+    array << item
   end
   array
 end
