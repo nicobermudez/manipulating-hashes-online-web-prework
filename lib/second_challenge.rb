@@ -8,10 +8,6 @@ def second_challenge
 
   array = []
   #code your solution here!
-  groceries.each do |type, items|
-    items.each do |attribute, value|
-      array.push(attribute)
-    end
-  end
+  array = groceries.values
   array
 end
